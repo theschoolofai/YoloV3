@@ -1,0 +1,4 @@
+classes=80
+train=data/smalcoco/smalcoco.txt
+valid=data/smalcoco/smalcoco.txt
+names=data/coco.names
