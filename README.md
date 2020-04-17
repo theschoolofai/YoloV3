@@ -2,8 +2,9 @@
 ________
 YoloV3 Simplified for training on Colab with custom dataset. 
 
-![image](https://github.com/theschoolofai/YoloV3/blob/master/output/train.png)
 _A Collage of Training images_
+![image](https://github.com/theschoolofai/YoloV3/blob/master/output/train.png)
+
 
 We have added a very 'smal' Coco sample imageset in the folder called smalcoco. This is to make sure you can run it without issues on Colab.
 
@@ -67,6 +68,9 @@ walle
   * steps to 4000,4500
 14. Don't forget to perform the weight file steps mentioned in the sectio above. 
 15. Run this command `python train.py --data data/customdata/custom.data --batch 10 --cache --cfg cfg/yolov3-custom.cfg --epochs 3 --nosave`
+
+As you can see in the collage image above, a lot is going on, and if you are creating a set of say 500 images, you'd get a bonanza of images via default augmentations being performed. 
+
 
 **Results**
 After training for 300 Epochs, results look awesome!
