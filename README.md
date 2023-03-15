@@ -12,7 +12,7 @@ Full credit goes to [this](https://github.com/ultralytics/yolov3), and if you ar
 
 You'll need to download the weights from the original source. 
 1. Create a folder called weights in the root (YoloV3) folder
-2. Download from: https://drive.google.com/open?id=1LezFG5g3BCW6iYaV89B2i64cqEUZD7e0
+2. Download from: https://drive.google.com/file/d/1vRDkpAiNdqHORTUImkrpD7kK_DkCcMus/view?usp=share_link
 3. Place 'yolov3-spp-ultralytics.pt' file in the weights folder:
   * to save time, move the file from the above link to your GDrive
   * then drag and drop from your GDrive opened in Colab to weights folder
