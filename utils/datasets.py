@@ -330,7 +330,7 @@ class LoadImagesAndLabels(Dataset):  # for training/testing
                         l = np.array([x.split() for x in f.read().splitlines()], dtype=np.float32)
                 except:
                     nm += 1  
-                    print('missing labels for image %s' % self.img_files[i])  # file missing
+                    print(f'missing labels for image {self.img_files[i]}, filename: {file}' )  # file missing
                     continue
 
                 if l.shape[0]:
